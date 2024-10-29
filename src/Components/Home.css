@@ -1,0 +1,168 @@
+/* Home.css */
+
+/* General styling for the home container */
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styling the Add Blog button */
+  .add-blog-container {
+    margin-bottom: 20px;
+  }
+  
+  .add-blog-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-blog-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Styling for the blog table */
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #f8f9fa;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Action buttons in the table */
+  .get-blog-btn, .update-btn, .delete-btn {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-right: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Specific styles for each button */
+  
+  /* Get Blog Button */
+  .get-blog-btn {
+    background-color: #007bff; /* Blue */
+  }
+  
+  .get-blog-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Update Button */
+  .update-btn {
+    background-color: #ffc107; /* Yellow */
+  }
+  
+  .update-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Delete Button */
+  .delete-btn {
+    background-color: #dc3545; /* Red */
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  /* Home.css */
+
+/* Container for the links inside the actions column */
+.home-container .table-container td {
+    padding: 10px;
+  }
+  
+  .home-container .table-container .actions {
+    display: flex;
+    gap: 10px; /* Adds space between the links */
+  }
+  
+  /* Styling for individual links */
+  .home-container .table-container .actions a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-container .table-container .actions a:hover {
+    opacity: 0.9; /* Slight opacity on hover */
+  }
+  
+  /* Specific styles for each link */
+  
+  /* Get Blog */
+  .home-container .table-container .actions .get-blog-link {
+    background-color: #007bff; /* Blue */
+  }
+  
+  .home-container .table-container .actions .get-blog-link:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Update Blog */
+  .home-container .table-container .actions .update-blog-link {
+    background-color: #ffc107; /* Yellow */
+  }
+  
+  .home-container .table-container .actions .update-blog-link:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Delete Blog */
+  .home-container .table-container .actions .delete-blog-link {
+    background-color: #dc3545; /* Red */
+  }
+  
+  .home-container .table-container .actions .delete-blog-link:hover {
+    background-color: #c82333;
+  }
+  /* Success and error messages */
+.success-message {
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .delete-blog-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .delete-blog-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
